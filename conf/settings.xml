@@ -7,7 +7,7 @@
        - language: default language (name of a subfolder in folder "languages")
        - theme: default style (name of a subfolder in folder "styles")
     -->
-    <display siteName="时代心理" footNote="教师心理测评报告管理系统 - &lt;a href='http://www.timesmind.cn'&gt;www.timesmind.cn&lt;/a&gt; - 欢迎使用" printDisclaimer="true" language="zh_CN" theme="bootstrap" previewWidthList="40" previewWidthDetail="100" availablelanguages="" previewWidthMenuList="40" previewWidthDropFolderList="100" showFullPreview="false" convertToPdf="false">  
+    <display siteName="时代心理" footNote="教师心理测评报告管理系统 - &lt;a href='http://www.timesmind.cn'&gt;www.timesmind.cn&lt;/a&gt; - 欢迎使用" printDisclaimer="false" language="zh_CN" theme="bootstrap" previewWidthList="40" previewWidthDetail="100" availablelanguages="" previewWidthMenuList="40" previewWidthDropFolderList="100" showFullPreview="false" convertToPdf="false">  
     </display>
     <!-- strictFormCheck: Strict form checking. If set to true, then all fields in the form will be checked for a value. If set to false, then (most) comments and keyword fields become optional. Comments are always required when submitting a review or overriding document status.
        - viewOnlineFileTypes: files with one of the following endings can be viewed online (USE ONLY LOWER CASE CHARACTERS)
@@ -24,7 +24,7 @@
        - sortUsersInList: how to sort users in lists ('fullname' or '' (default))
        - sortFoldersDefault: how to sort folders and documents in folder view  ('n' (name) or 's' (sequence, default))
     -->   
-    <edition strictFormCheck="false" viewOnlineFileTypes=".txt;.text;.html;.htm;.xml;.pdf;.gif;.png;.jpg;.jpeg" enableConverting="true" enableEmail="true" enableUsersView="true" enableFullSearch="true" enableFolderTree="true" expandFolderTree="1" enableLanguageSelector="true" stopWordsFile="" sortUsersInList="" sortFoldersDefault="s" editOnlineFileTypes="" enableSessionList="false" enableClipboard="false" enableMenuTasks="false" enableDropFolderList="false" enableDropUpload="false" enableMultiUpload="true" enableRecursiveCount="false" maxRecursiveCount="0" enableHelp="false" enableThemeSelector="false" maxSizeForFullText="0" fullSearchEngine="lucene" defaultSearchMethod="fulltext" showSingleSearchHit="false">
+    <edition strictFormCheck="false" viewOnlineFileTypes=".txt;.text;.html;.htm;.xml;.pdf;.gif;.png;.jpg;.jpeg" enableConverting="true" enableEmail="true" enableUsersView="true" enableFullSearch="true" enableFolderTree="true" expandFolderTree="1" enableLanguageSelector="true" stopWordsFile="" sortUsersInList="" sortFoldersDefault="s" editOnlineFileTypes="" enableSessionList="false" enableClipboard="false" enableMenuTasks="false" enableDropFolderList="false" enableDropUpload="false" enableMultiUpload="true" enableRecursiveCount="false" maxRecursiveCount="0" enableHelp="false" enableThemeSelector="true" maxSizeForFullText="2000" fullSearchEngine="lucene" defaultSearchMethod="fulltext" showSingleSearchHit="false">
     </edition> 
     <!-- enableCalendar: enable/disable calendar
        - calendarDefaultView: calendar default view ("w" for week,"m" for month,"y" for year)
@@ -125,7 +125,7 @@
        - enableVersionModification: allow to modify versions after approval
        - enableDuplicateDocNames: allow duplicate names in a folder
     --> 
-    <edition enableAdminRevApp="false" versioningFileName="versioning_info.txt" workflowMode="advanced" enableVersionDeletion="true" enableVersionModification="true" enableDuplicateDocNames="true" enableOwnerRevApp="false" enableSelfRevApp="false" enableUpdateRevApp="false" presetExpirationDate="" overrideMimeType="false" removeFromDropFolder="false">
+    <edition enableAdminRevApp="false" versioningFileName="versioning_info.txt" workflowMode="traditional" enableVersionDeletion="true" enableVersionModification="true" enableDuplicateDocNames="true" enableOwnerRevApp="false" enableSelfRevApp="false" enableUpdateRevApp="false" presetExpirationDate="" overrideMimeType="false" removeFromDropFolder="false">
     </edition>
     <!-- enableNotificationAppRev: true to send notifation if a user is added as a reviewer or approver
     -->
